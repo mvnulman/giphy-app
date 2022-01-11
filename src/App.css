@@ -1,5 +1,7 @@
 body {
-  background-color:#000
+  background: #000000 !important;
+  margin: 0;
+  padding: 0;
 }
 
 .gif {
