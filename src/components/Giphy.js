@@ -5,7 +5,6 @@ import "../App.css";
 import Spinner from "react-bootstrap/Spinner";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
-import { BiSearchAlt } from "react-icons/bi";
 
 const Giphy = () => {
   const [data, setData] = useState([]);
