@@ -19,7 +19,7 @@ input {
   border: none;
   margin: 10px;
   width: 300px;
-  height: 55px;
+  height: 45px;
   padding: 0 10px;
   border-radius: 5px;
 }
@@ -29,9 +29,10 @@ input {
 .btn {
   border: none !important;
   border-radius: 10px !important;
+  margin-bottom: 5px !important;
+  font-size: 20px !important; 
   width: 90px;
   height: 60px;
-  border-radius: 5px;
   background: #4c05f3 !important;
   color: #ffffff;
   font-weight: bold !important;

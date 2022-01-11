@@ -86,7 +86,7 @@ const Giphy = () => {
       MySwal.fire({
         icon: "error",
         title: "Oops... ",
-        text: "Your search field is empty!",
+        text: "The search field is empty!",
       });
       setIsLoading("");
       return;
@@ -115,10 +115,10 @@ const Giphy = () => {
             className="mt-2"
             // className="form-control"
           />
-          <BiSearchAlt
+          <button
             onClick={handleSubmit}
             type="submit"
-            className="btn btn-primary ms-1" />
+            className="btn btn-primary ms-1">Search</button>
         </form>
       </div>
       <div className="container">{renderGifs()}</div>
