@@ -52,7 +52,7 @@ const Giphy = () => {
     return data.map((gif) => {
       return (
         <div key={gif.id} className="gif">
-          <img src={gif.images.original.url} alt="gif" />
+          <img src={gif.images.fixed_width.url} alt="gif" />
         </div>
       );
     });

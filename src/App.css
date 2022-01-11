@@ -30,10 +30,41 @@ input {
   border: none !important;
   border-radius: 10px !important;
   margin-bottom: 5px !important;
-  font-size: 20px !important; 
-  width: 90px;
+  font-size: 15px !important; 
+  width: 70px;
   height: 60px;
   background: #4c05f3 !important;
   color: #ffffff;
   font-weight: bold !important;
+}
+
+
+@media screen and (min-width: 320px) {
+  .btn {
+    margin-top: 10px;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  .btn {
+    margin-top: 10px;
+    width: 70px;
+    margin-bottom: 10px !important;
+  }
+}
+
+@media screen and (min-width: 732px) {
+  .btn {
+    margin-top: 10px;
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .btn {
+    margin-top: 10px;
+    width: 70px;
+    margin-bottom: 10px !important;
+  }
 }
