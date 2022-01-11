@@ -111,6 +111,7 @@ const Giphy = () => {
             onChange={handleSearchChange}
             type="text"
             placeholder="Search here..."
+            className="mt-2"
             // className="form-control"
           />
           <button
@@ -118,7 +119,7 @@ const Giphy = () => {
             type="submit"
             className="btn btn-primary ms-2"
           >
-            Search!
+            Search
           </button>
         </form>
       </div>
