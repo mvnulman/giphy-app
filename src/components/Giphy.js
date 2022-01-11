@@ -5,6 +5,7 @@ import "../App.css";
 import Spinner from "react-bootstrap/Spinner";
 import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
+import { BiSearchAlt } from "react-icons/bi";
 
 const Giphy = () => {
   const [data, setData] = useState([]);
@@ -102,7 +103,7 @@ const Giphy = () => {
   };
 
   return (
-    <div className="m-2">
+    <div className="m-4">
       {renderError()}
       <div className="d-flex justify-content-center">
         <form>
@@ -114,13 +115,10 @@ const Giphy = () => {
             className="mt-2"
             // className="form-control"
           />
-          <button
+          <BiSearchAlt
             onClick={handleSubmit}
             type="submit"
-            className="btn btn-primary ms-2"
-          >
-            Search
-          </button>
+            className="btn btn-primary ms-1" />
         </form>
       </div>
       <div className="container">{renderGifs()}</div>

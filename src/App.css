@@ -19,7 +19,7 @@ input {
   border: none;
   margin: 10px;
   width: 300px;
-  height: 45px;
+  height: 55px;
   padding: 0 10px;
   border-radius: 5px;
 }
@@ -28,8 +28,9 @@ input {
 
 .btn {
   border: none !important;
-  width: 100px;
-  height: 45px;
+  border-radius: 10px !important;
+  width: 90px;
+  height: 60px;
   border-radius: 5px;
   background: #4c05f3 !important;
   color: #ffffff;
