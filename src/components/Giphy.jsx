@@ -7,8 +7,7 @@ import withReactContent from "sweetalert2-react-content";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 import { FiSearch } from "react-icons/fi";
 
-const GIPHY_API_KEY =
-  process.env.REACT_APP_GIPHY_API_KEY || "6FWRNXMBWZPPWKYVnN9kcDAd9xjiue1x";
+const GIPHY_API_KEY = import.meta.env.VITE_GIPHY_API_KEY;
 
 const Giphy = () => {
   const [data, setData] = useState([]);
