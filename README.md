@@ -2,62 +2,113 @@
 
 <br />
 
-  <h2 align="center">Giphy APP</h2>
-  
-  ![chrome-capture](https://user-images.githubusercontent.com/63374582/149034002-caa6264a-d472-4151-9c1a-9c690790d524.gif)
+<h2 align="center">Giphy APP</h2>
 
-  
-## About
+![chrome-capture](https://user-images.githubusercontent.com/63374582/149034002-caa6264a-d472-4151-9c1a-9c690790d524.gif)
 
-Giphy APP developed with ReactJS to practice Front-End development concepts.
+## 📋 Sobre o Projeto
 
-### Developed with
+Aplicação web desenvolvida com ReactJS para buscar e exibir GIFs animados da API do Giphy. Inclui funcionalidades de busca, tema dark/light e interface responsiva.
 
-* [React.js]
+### ✨ Funcionalidades
 
+- 🔍 **Busca de GIFs**: Pesquise GIFs por palavra-chave.
+- 🌙 **Tema Dark/Light**: Alternância entre modos claro e escuro com persistência no localStorage.
+- 📱 **Responsivo**: Interface adaptável para desktop e mobile.
+- ⚡ **Carregamento Rápido**: Utiliza Vite para builds otimizados.
 
-## Available Scripts
+### 🛠️ Tecnologias Utilizadas
 
-In the project directory, you can run:
+- **Frontend**: [React.js](https://reactjs.org/) (v19.2.0)
+- **Build Tool**: [Vite](https://vitejs.dev/) (v7.2.4)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **HTTP Client**: [Axios](https://axios-http.com/)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/)
+- **Alerts**: [SweetAlert2](https://sweetalert2.github.io/)
+- **API**: [Giphy API](https://developers.giphy.com/)
 
-### `yarn start`
+## 🚀 Como Rodar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Pré-requisitos
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Node.js (v16 ou superior)
+- Yarn ou npm
 
-### `yarn test`
+### Instalação
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone o repositório:
 
-### `yarn build`
+   ```bash
+   git clone https://github.com/mvnulman/giphy-app.git
+   cd giphy-app
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Instale as dependências:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   yarn install
+   # ou
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Configure as variáveis de ambiente:
 
-### `yarn eject`
+   - Copie `.env.example` para `.env`:
+     ```bash
+     cp .env.example .env
+     ```
+   - Adicione sua chave da API do Giphy em `.env`:
+     ```
+     VITE_GIPHY_API_KEY=sua_chave_aqui
+     ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Rode o servidor de desenvolvimento:
+   ```bash
+   yarn dev
+   # ou
+   npm run dev
+   ```
+   Abra [http://localhost:5173](http://localhost:5173) no navegador.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 Build para Produção
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+yarn build
+# ou
+npm run build
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Os arquivos otimizados serão gerados na pasta `build/`.
 
-<!-- LICENSE -->
-## License
+## 🌐 Deploy
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+O projeto pode ser deployado em plataformas como Vercel, Netlify ou GitHub Pages. Certifique-se de configurar as variáveis de ambiente na plataforma de deploy.
 
+## 📁 Estrutura do Projeto
+
+```
+giphy-app/
+├── public/
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   └── Giphy.jsx
+│   ├── App.jsx
+│   ├── index.jsx
+│   ├── index.css
+│   └── App.css
+├── .env
+├── .env.example
+├── vite.config.js
+├── package.json
+└── README.md
+```
+
+## 📄 Licença
+
+Distribuído sob a licença MIT. Veja `LICENSE.txt` para mais informações.
+
+<!-- LINKS -->
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/mvnulman/
