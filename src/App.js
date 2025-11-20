@@ -1,12 +1,2 @@
-import './App.css';
-import Giphy from './components/Giphy';
-
-function App() {
-  return (
-    <div className="App">
-      <Giphy />
-    </div>
-  );
-}
-
-export default App;
+// Shim to keep compatibility: re-export from App.jsx
+export { default } from "./App.jsx";
