@@ -1,5 +1,11 @@
-body {
+body.theme-dark {
   background: #000000 !important;
+  color: #ffffff !important;
+}
+
+body.theme-light {
+  background: #ffffff !important;
+  color: #000000 !important;
 }
 
 .gif {
@@ -14,7 +20,6 @@ body {
   justify-content: center;
 }
 
-
 input {
   border: none;
   margin: 10px;
@@ -24,20 +29,79 @@ input {
   border-radius: 5px;
 }
 
+.search-bar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+}
 
+.search-form {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.search-input {
+  width: 320px;
+  height: 44px;
+  padding: 0 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: transparent;
+  color: inherit;
+}
+
+.search-btn {
+  height: 44px;
+  width: 44px;
+  padding: 0;
+  border-radius: 8px;
+  border: none;
+  background: #4c05f3;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-btn {
+  height: 44px;
+  width: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+  background: rgba(255, 255, 255, 0.06);
+  color: inherit;
+  cursor: pointer;
+}
+
+body.theme-light .search-input {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+body.theme-light .search-btn {
+  background: #6f28c6;
+}
+body.theme-light .theme-btn {
+  background: rgba(0, 0, 0, 0.06);
+}
 
 .btn {
   border: none !important;
   border-radius: 10px !important;
   margin-bottom: 5px !important;
-  font-size: 15px !important; 
+  font-size: 15px !important;
   width: 70px;
   height: 60px;
   background: #4c05f3 !important;
   color: #ffffff;
   font-weight: bold !important;
 }
-
 
 @media screen and (min-width: 320px) {
   .btn {
