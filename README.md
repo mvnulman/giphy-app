@@ -1,10 +1,9 @@
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<br />
-
 <h2 align="center">Giphy APP</h2>
 
-![chrome-capture](https://user-images.githubusercontent.com/63374582/149034002-caa6264a-d472-4151-9c1a-9c690790d524.gif)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/682a9d85-30c1-49ce-83e7-2cff9bef7a60" alt="meme" />
+</p>
+
 
 ## 📋 Sobre o Projeto
 
